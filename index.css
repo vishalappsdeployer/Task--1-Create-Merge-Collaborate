@@ -21,19 +21,19 @@ h1{
     aspect-ratio: 1 / 1;
     animation: 4s ease-in 5s infinite reverse sun-rise;
   }
-/* body{
+ body{
     
 
-} */
-/* @keyframes sun-rise {
+} 
+ @keyframes sun-rise {
     from {
-      /* pushes the sun down past the viewport */
-      /* transform: translateY(110vh);
+      pushes the sun down past the viewport 
+       transform: translateY(110vh);
     }
-    to { */
-      /* returns the sun to its default position */
-      /* transform: translateY(0);
+    to { 
+       returns the sun to its default position */
+       transform: translateY(0);
     }
   }
-   */ */
+   
   
