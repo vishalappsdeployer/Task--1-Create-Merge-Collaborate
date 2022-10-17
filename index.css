@@ -1,0 +1,39 @@
+h1{
+    /* background-color: rgb(14, 14, 15); */
+    color: rgb(23, 23, 22);
+    text-align: center;
+    text-indent: initial;
+    justify-content: initial;
+    animation: 3s ease-in 1s infinite reverse both running slidein;
+
+}
+:root {
+    overflow: hidden; /* hides any part of the sun below the horizon */
+    background-color: lightblue;
+    display: flex;
+    justify-content: center; /* centers the sun in the background */
+  }
+  
+  .sun {
+    background-color: yellow;
+    border-radius: 50%; /* creates a circular background */
+    height: 100vh; /* makes the sun the size of the viewport */
+    aspect-ratio: 1 / 1;
+    animation: 4s ease-in 5s infinite reverse sun-rise;
+  }
+/* body{
+    
+
+} */
+/* @keyframes sun-rise {
+    from {
+      /* pushes the sun down past the viewport */
+      /* transform: translateY(110vh);
+    }
+    to { */
+      /* returns the sun to its default position */
+      /* transform: translateY(0);
+    }
+  }
+   */ */
+  
